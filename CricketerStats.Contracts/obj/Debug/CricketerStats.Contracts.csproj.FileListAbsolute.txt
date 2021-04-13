@@ -1,0 +1,16 @@
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CricketerStats.Contracts\bin\Debug\CricketerStats.Contracts.dll.config
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CricketerStats.Contracts\bin\Debug\CricketerStats.Contracts.dll
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CricketerStats.Contracts\bin\Debug\CricketerStats.Contracts.pdb
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CricketerStats.Contracts\bin\Debug\EntityFramework.dll
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CricketerStats.Contracts\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CricketerStats.Contracts\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CricketerStats.Contracts\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CricketerStats.Contracts\bin\Debug\EntityFramework.xml
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CricketerStats.Contracts\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CricketerStats.Contracts\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CricketerStats.Contracts\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CricketerStats.Contracts\obj\Debug\CricketerStats.Contracts.csprojAssemblyReference.cache
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CricketerStats.Contracts\obj\Debug\CricketerStats.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CricketerStats.Contracts\obj\Debug\CricketerStats.Contracts.csproj.CopyComplete
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CricketerStats.Contracts\obj\Debug\CricketerStats.Contracts.dll
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CricketerStats.Contracts\obj\Debug\CricketerStats.Contracts.pdb

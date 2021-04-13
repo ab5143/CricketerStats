@@ -1,0 +1,16 @@
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CrickerStats.Services\bin\Debug\CrickerStats.Services.dll.config
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CrickerStats.Services\bin\Debug\CrickerStats.Services.dll
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CrickerStats.Services\bin\Debug\CrickerStats.Services.pdb
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CrickerStats.Services\bin\Debug\EntityFramework.dll
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CrickerStats.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CrickerStats.Services\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CrickerStats.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CrickerStats.Services\bin\Debug\EntityFramework.xml
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CrickerStats.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CrickerStats.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CrickerStats.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CrickerStats.Services\obj\Debug\CricketerStats.Services.csprojAssemblyReference.cache
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CrickerStats.Services\obj\Debug\CricketerStats.Services.csproj.CoreCompileInputs.cache
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CrickerStats.Services\obj\Debug\CricketerStats.Services.csproj.CopyComplete
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CrickerStats.Services\obj\Debug\CrickerStats.Services.dll
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CrickerStats.Services\obj\Debug\CrickerStats.Services.pdb
