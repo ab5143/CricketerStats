@@ -54,8 +54,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cricketer.cs" />
     <Compile Include="IdentityModels.cs" />
+    <Compile Include="OneDayStats.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestStats.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
