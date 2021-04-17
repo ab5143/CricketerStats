@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CricketerStats.Data
 {
-    public class Cricketers
+    public class Cricketer
     {
 
         [Key]

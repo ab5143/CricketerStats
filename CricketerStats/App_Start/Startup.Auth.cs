@@ -6,7 +6,7 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
 using CricketerStats.Models;
-using Cricketer.Data;
+using CricketerStats.Data;
 
 namespace CricketerStats
 {

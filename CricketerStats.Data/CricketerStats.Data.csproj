@@ -56,6 +56,15 @@
   <ItemGroup>
     <Compile Include="Cricketer.cs" />
     <Compile Include="IdentityModels.cs" />
+    <Compile Include="Migrations\202104152316296_Initial.cs" />
+    <Compile Include="Migrations\202104152316296_Initial.Designer.cs">
+      <DependentUpon>202104152316296_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202104160112538_Second.cs" />
+    <Compile Include="Migrations\202104160112538_Second.Designer.cs">
+      <DependentUpon>202104160112538_Second.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="OneDayStats.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestStats.cs" />
@@ -63,6 +72,14 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202104152316296_Initial.resx">
+      <DependentUpon>202104152316296_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104160112538_Second.resx">
+      <DependentUpon>202104160112538_Second.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

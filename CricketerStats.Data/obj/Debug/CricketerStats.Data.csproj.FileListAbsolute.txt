@@ -14,3 +14,6 @@ C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerSta
 C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CricketerStats.Data\obj\Debug\CricketerStats.Data.csproj.CopyComplete
 C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CricketerStats.Data\obj\Debug\CricketerStats.Data.dll
 C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CricketerStats.Data\obj\Debug\CricketerStats.Data.pdb
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CricketerStats.Data\obj\Debug\CricketerStats.Data.Migrations.Initial.resources
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CricketerStats.Data\obj\Debug\CricketerStats.Data.csproj.GenerateResource.cache
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CricketerStats.Data\obj\Debug\CricketerStats.Data.Migrations.Second.resources

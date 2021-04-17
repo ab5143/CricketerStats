@@ -9,7 +9,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using CricketerStats.Models;
-using Cricketer.Data;
+using CricketerStats.Data;
 
 namespace CricketerStats.Controllers
 {
