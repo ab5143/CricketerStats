@@ -8,9 +8,9 @@ namespace CricketerStats.Data.Migrations
         public override void Up()
         {
             DropPrimaryKey("dbo.OneDayStats");
+            DropColumn("dbo.OneDayStats", "OneDayInt");
             AddColumn("dbo.OneDayStats", "OneDayIntId", c => c.Int(nullable: false, identity: true));
             AddPrimaryKey("dbo.OneDayStats", "OneDayIntId");
-            DropColumn("dbo.OneDayStats", "OneDayInt");
         }
         
         public override void Down()

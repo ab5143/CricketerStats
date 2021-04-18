@@ -54,11 +54,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CricketerService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CricketerStats.Data\CricketerStats.Data.csproj">
+      <Project>{802aff38-2a68-4ac2-9c41-5c8dc2e05186}</Project>
+      <Name>CricketerStats.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CricketerStats.Models\CricketerStats.Models.csproj">
+      <Project>{4ad2cca1-6572-43a8-ac9b-d8d6b632a3a7}</Project>
+      <Name>CricketerStats.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

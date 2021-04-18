@@ -235,6 +235,8 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Cricketer\Index.cshtml" />
+    <Content Include="Views\Cricketer\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -253,9 +255,17 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CrickerStats.Services\CricketerStats.Services.csproj">
+      <Project>{621e06f1-956c-4f21-9095-1a3d3df05c23}</Project>
+      <Name>CricketerStats.Services</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CricketerStats.Data\CricketerStats.Data.csproj">
       <Project>{802AFF38-2A68-4AC2-9C41-5C8DC2E05186}</Project>
       <Name>CricketerStats.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CricketerStats.Models\CricketerStats.Models.csproj">
+      <Project>{4ad2cca1-6572-43a8-ac9b-d8d6b632a3a7}</Project>
+      <Name>CricketerStats.Models</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

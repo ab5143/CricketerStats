@@ -36,6 +36,7 @@ namespace CricketerStats.Data
         public DbSet<Cricketer> Cricketerss { get; set; }
         public DbSet<OneDayStats> OneDayStatss { get; set; }
         public DbSet<TestStats> TestStatss { get; set; }
+        public object Cricketer { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
