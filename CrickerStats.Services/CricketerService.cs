@@ -52,7 +52,7 @@ namespace CrickerStats.Services
                                 {
                                     Name = e.Name,
                                     CricketerId = e.CricketerId,
-                                    
+
                                 }
                         );
 
@@ -113,4 +113,8 @@ namespace CrickerStats.Services
 
 
             }
+        }
+    }
 }
+
+

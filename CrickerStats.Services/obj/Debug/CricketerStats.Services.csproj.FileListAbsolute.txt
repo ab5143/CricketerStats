@@ -14,3 +14,9 @@ C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerSta
 C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CrickerStats.Services\obj\Debug\CricketerStats.Services.csproj.CopyComplete
 C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CrickerStats.Services\obj\Debug\CrickerStats.Services.dll
 C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CrickerStats.Services\obj\Debug\CrickerStats.Services.pdb
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CrickerStats.Services\bin\Debug\CricketerStats.Data.dll
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CrickerStats.Services\bin\Debug\CricketerStats.Models.dll
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CrickerStats.Services\bin\Debug\CricketerStats.Data.pdb
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CrickerStats.Services\bin\Debug\CricketerStats.Data.dll.config
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CrickerStats.Services\bin\Debug\CricketerStats.Models.pdb
+C:\Users\abaloch\Desktop\ElevenFiftyProjects\RedBadge\Final Project\CricketerStats\CrickerStats.Services\bin\Debug\CricketerStats.Models.dll.config

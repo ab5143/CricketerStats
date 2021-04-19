@@ -1,4 +1,6 @@
-﻿using CricketerStats.Models;
+﻿using CrickerStats.Services;
+using CricketerStats.Models;
+using Microsoft.AspNet.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,8 +15,12 @@ namespace CricketerStats.Controllers
         // GET: Cricketer
         public ActionResult Index()
         {
-            var model = new CricketerList[0];
-            return View();
+            var userId = Guid.Parse(User.Identity.GetUserId());
+            var service = new CricketerService(userId);
+            var model = service.GetCricketers();
+
+            return View(model);
+
         }
 
         public ActionResult Create()
@@ -22,15 +28,23 @@ namespace CricketerStats.Controllers
             return View();
         }
 
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(CricketerCreate model)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-
+                return View(model);
             }
-            return View(model);
+
+            var userId = Guid.Parse(User.Identity.GetUserId());
+            var service = new CricketerService(userId);
+            service.CreateCricketer(model);
+
+            return RedirectToAction("Index");
+
+
         }
 
 
