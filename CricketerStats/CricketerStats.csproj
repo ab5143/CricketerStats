@@ -237,6 +237,7 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Cricketer\Index.cshtml" />
     <Content Include="Views\Cricketer\Create.cshtml" />
+    <Content Include="Views\Cricketer\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -33,18 +33,34 @@ namespace CricketerStats.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(CricketerCreate model)
         {
-            if (!ModelState.IsValid)
-            {
-                return View(model);
-            }
+            if (!ModelState.IsValid) return View(model);
+            var service = CreateCricketService();
 
+            if (service.CreateCricketer(model))
+            {
+                TempData["SaveResult"] = "Your Cricketer was created.";
+                return RedirectToAction("Index");
+            };
+            ModelState.AddModelError("", "Cricketer could not be created.");
+
+            return View(model);
+
+        }
+
+        private CricketerService CreateCricketService()
+        {
             var userId = Guid.Parse(User.Identity.GetUserId());
             var service = new CricketerService(userId);
-            service.CreateCricketer(model);
+            return service;
+        }
 
-            return RedirectToAction("Index");
 
+        public ActionResult Details(int id)
+        {
+            var svc = CreateCricketService();
+            var model = svc.GetCricketerById(id);
 
+            return View(model);
         }
 
 
