@@ -238,6 +238,7 @@
     <Content Include="Views\Cricketer\Index.cshtml" />
     <Content Include="Views\Cricketer\Create.cshtml" />
     <Content Include="Views\Cricketer\Details.cshtml" />
+    <Content Include="Views\Cricketer\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

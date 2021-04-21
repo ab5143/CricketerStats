@@ -60,24 +60,26 @@ namespace CrickerStats.Services
             }
         }
 
-        public IEnumerable<CricketerList> GetCricketerById(int id)
+
+        public CricketerDetails GetCricketerById(int id)
         {
             using (var ctx = new ApplicationDbContext())
             {
-                var query =
+                var entity =
                     ctx
-                    .Cricketerss
-                    .Where(e => e.UserId == _userId && e.CricketerId == id)
-                    .Select(
-                        e =>
-                        new CricketerList
-                        {
-                            Name = e.Name,
-                            CricketerId = e.CricketerId,
-                        }
-                        );
-                return query.ToArray();
+                        .Cricketerss
+                        .Single(e => e.CricketerId == id && e.UserId == _userId);
+                return
+                    new CricketerDetails
+                    {
+                        Name = entity.Name,
+                        Country = entity.Country,
+                        TotalRuns = entity.TotalRuns,
+                        CricketerId = entity.CricketerId
+                        
+                    };
             }
+
         }
 
         public bool UpdateCricketer(CricketerEdit model)
@@ -91,7 +93,6 @@ namespace CrickerStats.Services
 
                 entity.Name = model.Name;
                 entity.Country = model.Country;
-                entity.CricketerId = model.CricketerId;
                 entity.TotalRuns = model.TotalRuns;
 
                 return ctx.SaveChanges() == 1;

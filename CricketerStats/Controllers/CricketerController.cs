@@ -63,6 +63,51 @@ namespace CricketerStats.Controllers
             return View(model);
         }
 
+        public ActionResult Edit (int id)
+        
+        {
+            var service = CreateCricketService();
+            var detail = service.GetCricketerById(id);
+            var model =
+                new CricketerEdit
+                {
+                    Name = detail.Name,
+                    Country = detail.Country,
+                    TotalRuns = detail.TotalRuns
+                };
+            return View(model);
+        }
+
+
+
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit(int id, CricketerEdit model)
+        {
+            if (!ModelState.IsValid) return View(model);
+
+            if (model.CricketerId != id)
+            {
+                ModelState.AddModelError("", "Id Mismatch");
+                return View(model);
+            }
+
+
+            var service = CreateCricketService();
+
+            if (service.UpdateCricketer(model))
+            {
+                TempData["SaveResult"] = "Your Cricketer was updated.";
+                return RedirectToAction("Index");
+            }
+
+            ModelState.AddModelError("", "Your Cricketer could not be updated.");
+            return View(model);
+        }
+
+
 
 
 
