@@ -27,6 +27,8 @@ namespace CricketerStats.Data
         [Required]
         public int HatrickOneDayInt { get; set; }
 
+        [Required]
+        public Guid UserId { get; set; }
 
     }
 }

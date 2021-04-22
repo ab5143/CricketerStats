@@ -171,6 +171,7 @@
     <Compile Include="Controllers\CricketerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\OneDayStatsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -239,9 +240,11 @@
     <Content Include="Views\Cricketer\Create.cshtml" />
     <Content Include="Views\Cricketer\Details.cshtml" />
     <Content Include="Views\Cricketer\Edit.cshtml" />
+    <Content Include="Views\Cricketer\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\OneDayStats\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

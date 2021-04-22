@@ -63,8 +63,8 @@ namespace CricketerStats.Controllers
             return View(model);
         }
 
-        public ActionResult Edit (int id)
-        
+        public ActionResult Edit(int id)
+
         {
             var service = CreateCricketService();
             var detail = service.GetCricketerById(id);
@@ -73,7 +73,8 @@ namespace CricketerStats.Controllers
                 {
                     Name = detail.Name,
                     Country = detail.Country,
-                    TotalRuns = detail.TotalRuns
+                    TotalRuns = detail.TotalRuns,
+                    CricketerId = detail.CricketerId
                 };
             return View(model);
         }
@@ -109,7 +110,33 @@ namespace CricketerStats.Controllers
 
 
 
+        [ActionName("Delete")]
+        public ActionResult Delete(int id)
+        {
+            var svc = CreateCricketService();
+            var model = svc.GetCricketerById(id);
+
+            return View(model);
+        }
 
 
+
+
+        [HttpPost]
+        [ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public ActionResult DeletePost(int id)
+        {
+            var service = CreateCricketService();
+
+            service.DeleteCricketer(id);
+
+            TempData["SaveResult"] = "Your note was deleted";
+
+            return RedirectToAction("Index");
+
+
+
+        }
     }
 }

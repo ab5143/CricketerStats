@@ -24,7 +24,10 @@ namespace CricketerStats.Data
         [Required]
         public int HalfCenturyTest { get; set; }
 
-        
+        [Required]
+        public Guid UserId { get; set; }
+
+
 
     }
 }
