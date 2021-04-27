@@ -19,7 +19,9 @@ namespace CricketerStats.Models
         public int TotalRuns { get; set; }
 
         public int CricketerId { get; set; }
-        
+
+
+        public int OneDayIntId { get; set; }
 
 
 

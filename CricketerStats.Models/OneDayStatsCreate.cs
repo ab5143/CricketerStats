@@ -12,19 +12,15 @@ namespace CricketerStats.Models
     public class OneDayStatsCreate
     {
 
-        [Required]
-        [MinLength(2, ErrorMessage = "Please enter at least 2 characters.")]
-        [MaxLength(100, ErrorMessage = "There are too many characters in this field.")]
+        //[Required]
+        //[MinLength(1, ErrorMessage = "Please enter at least 2 characters.")]
+        //[MaxLength(100, ErrorMessage = "There are too many characters in this field.")]
 
         public int WicketOneDayInt { get; set; }
 
-       public int CenturyOneDayInt { get; set; }
+        public int CenturyOneDayInt { get; set; }
 
-       public int HatrickOneDayInt { get; set; }
-
-        [ForeignKey(nameof(Cricketer))]
+        public int HatrickOneDayInt { get; set; }
         public int CricketerId { get; set; }
-
-        public virtual Cricketer Cricketer { get; set; }
     }
 }

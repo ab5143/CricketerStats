@@ -11,11 +11,6 @@ namespace CricketerStats.Models
     public class OneDayStatsDetails
     {
 
-        public int OneDayIntId { get; set; }
-
-
-
-
 
         public int WicketOneDayInt { get; set; }
 
@@ -25,10 +20,9 @@ namespace CricketerStats.Models
 
         public int HatrickOneDayInt { get; set; }
 
-        [ForeignKey(nameof(Cricketer))]
         public int CricketerId { get; set; }
 
-        public virtual Cricketer Cricketer { get; set; }
+        public int OneDayIntId { get; set; }
     }
 
 

@@ -1,0 +1,53 @@
+﻿@model IEnumerable<CricketerStats.Models.OneDayStatsList>
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.WicketOneDayInt)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CenturyOneDayInt)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HatrickOneDayInt)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CricketerId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OneDayIntId)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.WicketOneDayInt)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CenturyOneDayInt)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HatrickOneDayInt)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CricketerId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OneDayIntId)
+        </td>
+        
+    </tr>
+}
+
+</table>

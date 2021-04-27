@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CricketerStats.Models
 {
-    public  class OneDayStatsList
+    public class OneDayStatsList
     {
         public int WicketOneDayInt { get; set; }
 
@@ -16,12 +16,10 @@ namespace CricketerStats.Models
 
         public int HatrickOneDayInt { get; set; }
 
-        public int OneDayIntId { get; set; }
-
-        [ForeignKey(nameof(Cricketer))]
         public int CricketerId { get; set; }
 
-        public virtual Cricketer Cricketer { get; set; }
+        public int OneDayIntId { get; set; }
+
     }
 
 }

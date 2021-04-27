@@ -241,10 +241,14 @@
     <Content Include="Views\Cricketer\Details.cshtml" />
     <Content Include="Views\Cricketer\Edit.cshtml" />
     <Content Include="Views\Cricketer\Delete.cshtml" />
+    <Content Include="Views\OneDayStats\Index.cshtml" />
+    <Content Include="Views\OneDayStats\Create.cshtml" />
+    <Content Include="Views\OneDayStats\Edit.cshtml" />
+    <Content Include="Views\OneDayStats\Details.cshtml" />
+    <Content Include="Views\OneDayStats\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\OneDayStats\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
