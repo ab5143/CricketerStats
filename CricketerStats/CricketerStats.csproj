@@ -172,6 +172,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\OneDayStatsController.cs" />
+    <Compile Include="Controllers\TestStatsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -246,6 +247,11 @@
     <Content Include="Views\OneDayStats\Edit.cshtml" />
     <Content Include="Views\OneDayStats\Details.cshtml" />
     <Content Include="Views\OneDayStats\Delete.cshtml" />
+    <Content Include="Views\TestStats\Index.cshtml" />
+    <Content Include="Views\TestStats\Create.cshtml" />
+    <Content Include="Views\TestStats\Details.cshtml" />
+    <Content Include="Views\TestStats\Delete.cshtml" />
+    <Content Include="Views\TestStats\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -24,9 +24,11 @@
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     @if (User.Identity.IsAuthenticated)
                     {
-                    <li>@Html.ActionLink("Cricketer", "Index", "Cricketer")</li>
+                        <li>@Html.ActionLink("Cricketer", "Index", "Cricketer")</li>
+                        <li>@Html.ActionLink("OneDayStats", "Index", "OneDayStats")</li>
+                        <li>@Html.ActionLink("TestStats", "Index", "TestStats")</li>
                     }
-                  
+
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                 </ul>

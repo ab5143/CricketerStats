@@ -9,11 +9,11 @@ namespace CricketerStats.Models
 {
     public class TestStatsCreate
     {
-        [Required]
-        [MinLength(2, ErrorMessage = "Please enter at least 2 characters.")]
-        [MaxLength(100, ErrorMessage = "There are too many characters in this field.")]
+        //[Required]
+        //[MinLength(2, ErrorMessage = "Please enter at least 2 characters.")]
+        ///[MaxLength(100, ErrorMessage = "There are too many characters in this field.")]
 
-        public int TestId { get; set; }
+       
                 
         public int CricketerId { get; set; }
                 

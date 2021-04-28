@@ -13,5 +13,7 @@ namespace CricketerStats.Models
         public int DoubleCenturyTest { get; set; }
 
         public int HalfCenturyTest { get; set; }
+
+        public int TestId { get; set; }
     }
 }

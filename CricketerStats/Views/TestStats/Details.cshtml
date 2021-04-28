@@ -1,0 +1,47 @@
+﻿@model IEnumerable<CricketerStats.Models.TestStatsList>
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TestId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CricketerId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DoubleCenturyTest)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HalfCenturyTest)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TestId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CricketerId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DoubleCenturyTest)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HalfCenturyTest)
+        </td>
+       
+    </tr>
+}
+
+</table>

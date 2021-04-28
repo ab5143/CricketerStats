@@ -57,6 +57,7 @@
     <Compile Include="CricketerService.cs" />
     <Compile Include="OneDayStatsServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestStatsServices.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
