@@ -4,7 +4,15 @@
     ViewBag.Title = "Index";
 }
 
-<h4>Index</h4>
+<h2>Index</h2>
+
+
+
+<body class="cricketer">
+
+</body>
+
+
 
 <p>
     @Html.ActionLink("Create New", "Create")
@@ -46,7 +54,8 @@
             <td>
                 @Html.ActionLink("Edit", "Edit", new { id = item.CricketerId }) |
                 @Html.ActionLink("Details", "Details", new { id = item.CricketerId }) |
-                @Html.ActionLink("Delete", "Delete", new { id = item.CricketerId })
+                @Html.ActionLink("Delete", "Delete", new { id = item.CricketerId }) |
+                @Html.ActionLink("Create", "Create", new { id = item.CricketerId }) |
             </td>
         </tr>
     }

@@ -4,7 +4,17 @@
     ViewBag.Title = "Index";
 }
 
+
 <h2>Index</h2>
+
+<body class="onedaystats">
+
+</body>
+
+
+
+
+
 
 <p>
     @Html.ActionLink("Create New", "Create")
@@ -42,14 +52,15 @@
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.CricketerId)
+            
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.OneDayIntId)
         </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.OneDayIntId  }) |
-            @Html.ActionLink("Details", "Details", new { id=item.CricketerId}) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.OneDayIntId})
+        <td class="Index-B">
+            @Html.ActionLink("Edit", "Edit", new { id = item.OneDayIntId }, new { @class = "Index-B" }) |
+            @Html.ActionLink("Details", "Details", new { id = item.CricketerId }, new { @class = "Index-B" }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.OneDayIntId }, new { @class = "Index-B" })
         </td>
     </tr>
 }
